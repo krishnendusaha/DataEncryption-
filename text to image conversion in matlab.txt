@@ -1,0 +1,16 @@
+***matlab code to convert the text file to image in bmp format*******
+
+A=dlmread(filename,delimiter)      //reads the text file with name filename  and  reads the elements seperated by space delimiter(' ' )   saves the 256X256 pixel values in a matrix A in 
+                                   //type  double 
+A1= uint8(A)                       //converts the elements of A from double to uint8 and stores in another matrix A1 of size 256X256  
+imwrite(A1,image_filename,format)  //A1 contains the image to be printed in matrix of 256X256 of uint8 elements ,image_filename contains the image name with location where the image will be  
+                                   //saved, format contains the image format ('bmp')
+
+***Our Code 
+
+
+A=dlmread('C:\Users\user\Desktop\boat_dist.txt',' ')
+A1=uint8(A)
+imwrite(A1,'C:\Users\user\Desktop\string_encrypted_boat.bmp','bmp')     
+
+                           

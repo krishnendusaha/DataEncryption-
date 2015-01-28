@@ -1,0 +1,4 @@
+** matlab code to convert the bmp image to 256X256 matrix
+
+ A=imread('C:\Users\user\Desktop\boat.bmp','bmp')
+dlmwrite('C:\Users\user\Desktop\pixel_matrix.txt',A,' ')

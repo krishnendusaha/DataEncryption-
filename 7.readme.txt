@@ -1,0 +1,9 @@
+1.Run the matlab code in "image_to_text_conv_in_matlab.txt" to get the image pixels in text file in 256X256 matrix format 
+2. Run the string_encryption.s  .Check fin should be "pixel_matrix_origianl.txt"
+3. Give input string that has to be encrypted in the image.  In our case input string is "computer"
+4.Get the string("computer") encrypted image in fout boat_watermarked_matrix.txt
+5.Convert the  text file boat_watermarked_matrix.txt with the matlab code  given in "text matrix to image conversion in matlab.txt" to get the 
+   boat_watermarked.bmp
+6.Run the string_Decription.s  to get back the converted string  and the retrived back string 
+The image is stored in "boat_retrieved.bmp".
+ 
